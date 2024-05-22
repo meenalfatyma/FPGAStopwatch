@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sat May 18 18:31:42 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dp" LOCATE = SITE "M4" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "sseg_data<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "sseg_data<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "ssg_ctrl<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "sseg_data<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "ssg_ctrl<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "sseg_data<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "ssg_ctrl<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "sseg_data<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "ssg_ctrl<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "sseg_data<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "ssg_ctrl<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "sseg_data<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "ssg_ctrl<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "ssg_ctrl<6>" LOCATE = SITE "L1" LEVEL 1;
+COMP "ssg_ctrl<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "start" LOCATE = SITE "U8" LEVEL 1;
+COMP "rst" LOCATE = SITE "U9" LEVEL 1;
+SCHEMATIC END;
+

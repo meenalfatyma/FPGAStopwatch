@@ -1,0 +1,50 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "sseg_data[0]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[1]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[2]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[3]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[4]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[5]" IOSTANDARD = LVCMOS33;
+NET "sseg_data[6]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[0]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[1]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[2]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[3]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[4]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[5]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[6]" IOSTANDARD = LVCMOS33;
+NET "ssg_ctrl[7]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "sseg_data[0]" LOC = L3;
+NET "sseg_data[1]" LOC = N1;
+NET "sseg_data[2]" LOC = L5;
+NET "sseg_data[3]" LOC = L4;
+NET "sseg_data[4]" LOC = K3;
+NET "sseg_data[5]" LOC = M2;
+NET "sseg_data[6]" LOC = L6;
+NET "ssg_ctrl[0]" LOC = N6;
+NET "ssg_ctrl[1]" LOC = M6;
+NET "ssg_ctrl[2]" LOC = M3;
+NET "ssg_ctrl[3]" LOC = N5;
+NET "ssg_ctrl[4]" LOC = N2;
+NET "ssg_ctrl[5]" LOC = N4;
+NET "ssg_ctrl[6]" LOC = L1;
+NET "ssg_ctrl[7]" LOC = M1;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "dp" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+NET "start" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = E3;
+NET "dp" LOC = M4;
+NET "rst" LOC = U9;
+NET "start" LOC = U8;

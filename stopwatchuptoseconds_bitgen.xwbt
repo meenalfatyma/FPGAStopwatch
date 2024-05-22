@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\6th Semester\DSD\DSD Lab\DSDProject\stopwatchuptoseconds.ncd
+OUTFILE=E:\6th Semester\DSD\DSD Lab\DSDProject\stopwatchuptoseconds.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=E:\6th Semester\DSD\DSD Lab\DSDProject
+LICENSE=WebPack
+USER_INFO=210685472_0_0_450

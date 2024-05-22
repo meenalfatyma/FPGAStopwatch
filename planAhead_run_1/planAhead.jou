@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Sat May 18 17:21:29 2024
+# Process ID: 14764
+# Log file: E:/6th Semester/DSD/DSD Lab/DSDProject/planAhead_run_1/planAhead.log
+# Journal file: E:/6th Semester/DSD/DSD Lab/DSDProject/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {E:/6th Semester/DSD/DSD Lab/DSDProject/pa.fromHdl.tcl}
+set_property iostandard LVCMOS33 [get_ports [list {sseg_data[0]} {sseg_data[1]} {sseg_data[2]} {sseg_data[3]} {sseg_data[4]} {sseg_data[5]} {sseg_data[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {ssg_ctrl[0]} {ssg_ctrl[1]} {ssg_ctrl[2]} {ssg_ctrl[3]} {ssg_ctrl[4]} {ssg_ctrl[5]} {ssg_ctrl[6]} {ssg_ctrl[7]}]]
+startgroup
+set_property package_pin L3 [get_ports {sseg_data[0]}]
+endgroup
+startgroup
+set_property package_pin N1 [get_ports {sseg_data[1]}]
+endgroup
+startgroup
+set_property package_pin L5 [get_ports {sseg_data[2]}]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports {sseg_data[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {sseg_data[4]}]
+endgroup
+startgroup
+set_property package_pin M2 [get_ports {sseg_data[5]}]
+endgroup
+startgroup
+set_property package_pin L6 [get_ports {sseg_data[6]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {ssg_ctrl[1]}]
+endgroup
+startgroup
+set_property package_pin M3 [get_ports {ssg_ctrl[2]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {ssg_ctrl[3]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {ssg_ctrl[4]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {ssg_ctrl[5]}]
+endgroup
+startgroup
+set_property package_pin L1 [get_ports {ssg_ctrl[6]}]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports {ssg_ctrl[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list dp]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+set_property iostandard LVCMOS33 [get_ports [list start]]
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports dp]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports start]
+endgroup
+save_design

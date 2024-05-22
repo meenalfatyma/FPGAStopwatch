@@ -1,0 +1,121 @@
+
+****** PlanAhead v14.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -3851 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {E:/6th Semester/DSD/DSD Lab/DSDProject/pa.fromHdl.tcl}
+# create_project -name DSDProject -dir "E:/6th Semester/DSD/DSD Lab/DSDProject/planAhead_run_1" -part xc7a100tcsg324-3
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "stopwatchuptoseconds.ucf" [current_fileset -constrset]
+Adding file 'E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {stopwatchuptoseconds.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top stopwatchuptoseconds $srcset
+# add_files [list {stopwatchuptoseconds.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.v" into library work
+Loading clock regions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.ucf]
+Finished Parsing UCF File [E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 1223e38f
+open_rtl_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 683.297 ; gain = 288.223
+set_property iostandard LVCMOS33 [get_ports [list {sseg_data[0]} {sseg_data[1]} {sseg_data[2]} {sseg_data[3]} {sseg_data[4]} {sseg_data[5]} {sseg_data[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {ssg_ctrl[0]} {ssg_ctrl[1]} {ssg_ctrl[2]} {ssg_ctrl[3]} {ssg_ctrl[4]} {ssg_ctrl[5]} {ssg_ctrl[6]} {ssg_ctrl[7]}]]
+startgroup
+set_property package_pin L3 [get_ports {sseg_data[0]}]
+endgroup
+startgroup
+set_property package_pin N1 [get_ports {sseg_data[1]}]
+endgroup
+startgroup
+set_property package_pin L5 [get_ports {sseg_data[2]}]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports {sseg_data[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {sseg_data[4]}]
+endgroup
+startgroup
+set_property package_pin M2 [get_ports {sseg_data[5]}]
+endgroup
+startgroup
+set_property package_pin L6 [get_ports {sseg_data[6]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {ssg_ctrl[0]}]
+endgroup
+startgroup
+set_property package_pin M6 [get_ports {ssg_ctrl[1]}]
+endgroup
+startgroup
+set_property package_pin M3 [get_ports {ssg_ctrl[2]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {ssg_ctrl[3]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {ssg_ctrl[4]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {ssg_ctrl[5]}]
+endgroup
+startgroup
+set_property package_pin L1 [get_ports {ssg_ctrl[6]}]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports {ssg_ctrl[7]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list dp]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+set_property iostandard LVCMOS33 [get_ports [list start]]
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports dp]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports start]
+endgroup
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

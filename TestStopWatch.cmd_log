@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/6th Semester/DSD/DSD Lab/DSDProject/TestStopWatch.xst" -ofn "E:/6th Semester/DSD/DSD Lab/DSDProject/TestStopWatch.syr" 

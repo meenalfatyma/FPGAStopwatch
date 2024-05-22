@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.xst" -ofn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatchuptoseconds.ucf -p xc7a100t-csg324-3 "stopwatchuptoseconds.ngc" stopwatchuptoseconds.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ngd stopwatchuptoseconds.pcf 
+par -w -intstyle ise -ol high -mt off stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ncd stopwatchuptoseconds.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml stopwatchuptoseconds.twx stopwatchuptoseconds.ncd -o stopwatchuptoseconds.twr stopwatchuptoseconds.pcf -ucf stopwatchuptoseconds.ucf 
+bitgen -intstyle ise -f stopwatchuptoseconds.ut stopwatchuptoseconds.ncd 
+xst -intstyle ise -ifn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.xst" -ofn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatchuptoseconds.ucf -p xc7a100t-csg324-3 "stopwatchuptoseconds.ngc" stopwatchuptoseconds.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ngd stopwatchuptoseconds.pcf 
+par -w -intstyle ise -ol high -mt off stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ncd stopwatchuptoseconds.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml stopwatchuptoseconds.twx stopwatchuptoseconds.ncd -o stopwatchuptoseconds.twr stopwatchuptoseconds.pcf -ucf stopwatchuptoseconds.ucf 
+bitgen -intstyle ise -f stopwatchuptoseconds.ut stopwatchuptoseconds.ncd 
+xst -intstyle ise -ifn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.xst" -ofn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatchuptoseconds.ucf -p xc7a100t-csg324-3 "stopwatchuptoseconds.ngc" stopwatchuptoseconds.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ngd stopwatchuptoseconds.pcf 
+par -w -intstyle ise -ol high -mt off stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ncd stopwatchuptoseconds.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml stopwatchuptoseconds.twx stopwatchuptoseconds.ncd -o stopwatchuptoseconds.twr stopwatchuptoseconds.pcf -ucf stopwatchuptoseconds.ucf 
+bitgen -intstyle ise -f stopwatchuptoseconds.ut stopwatchuptoseconds.ncd 
+xst -intstyle ise -ifn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.xst" -ofn "E:/6th Semester/DSD/DSD Lab/DSDProject/stopwatchuptoseconds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatchuptoseconds.ucf -p xc7a100t-csg324-3 "stopwatchuptoseconds.ngc" stopwatchuptoseconds.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ngd stopwatchuptoseconds.pcf 
+par -w -intstyle ise -ol high -mt off stopwatchuptoseconds_map.ncd stopwatchuptoseconds.ncd stopwatchuptoseconds.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml stopwatchuptoseconds.twx stopwatchuptoseconds.ncd -o stopwatchuptoseconds.twr stopwatchuptoseconds.pcf -ucf stopwatchuptoseconds.ucf 
+bitgen -intstyle ise -f stopwatchuptoseconds.ut stopwatchuptoseconds.ncd 
